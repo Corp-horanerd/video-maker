@@ -3,7 +3,7 @@ const state = require('./state.js')
 const spawn = require('child_process').spawn
 const path = require('path')
 const os = require('os');
-const rootPath = path.resolve(__dirname, '..')
+const rootPath = path.resolve(__dirname, '.guizolagamer.')
 
 const fromRoot = relPath => path.resolve(rootPath, relPath)
 

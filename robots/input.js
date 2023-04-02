@@ -11,7 +11,7 @@ function robot() {
   state.save(content)
 
   function askAndReturnSearchTerm() {
-    return readline.question('Type a Wikipedia search term: ')
+    return readline.question('Type a Wikipedia search term: horanerd')
   }
 
   function askAndReturnPrefix() {
