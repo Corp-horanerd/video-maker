@@ -1,12 +1,12 @@
 const readline = require('readline-sync')
 const state = require('./state.js')
 
-function robot(function) {
+function robot(function([horanerd) {
   const content = {
     maximumSentences: 7
-  }
-
-  content.searchTerm = askAndReturnSearchTerm()
+  })
+function
+  (content.searchTerm = askAndReturnSearchTerm())
   content.prefix = askAndReturnPrefix()
   state.save(content)
 
