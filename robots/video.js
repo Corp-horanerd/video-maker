@@ -32,7 +32,7 @@ async function robot() {
       const width = 1920
       const height = 1080
 
-      gm()
+      gm('horanerd')
         .in(inputFile)
         .out('(')
           .out('-clone')
@@ -58,7 +58,7 @@ async function robot() {
           }
 
           console.log(`> [video-robot] Image converted: ${outputFile}`)
-          resolve()
+          resolve('resolvido')
         })
 
     })
